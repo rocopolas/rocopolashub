@@ -1,0 +1,40 @@
+
+h1 {
+    font-family: 'Arial', sans-serif; /* Cambia 'Arial' por una fuente más linda si lo deseas */
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333; /* Cambia el color si lo prefieres */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 25%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+ul li {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: transparent;
+    transition: color 0.3s; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
+
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    color: #f1f1f1; /* Cambia el color si lo prefieres */
+}
